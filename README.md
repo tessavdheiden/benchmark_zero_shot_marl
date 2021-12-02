@@ -14,4 +14,6 @@ A multi-agent partically observable markov decision process.
 An algorithm that uses symmetries in the dec-POMDP to avoid arbitrary symmetry breaking. 
 
 # This repo
-This repository compares various methos on a simple cooperative, repetitave, communication game. 
+## Cooperative Communication
+This game has three doors and behind one of them is a treasure. A sender agent can send a message, and the receiver can pick a door.
+At the end of the round, the receiver will observe which door contained the treasure. And then, the game repeats.
